@@ -1,0 +1,15 @@
+.search {
+    background-color: #fafafa;
+    border-width: 3px 3px 3px 0;
+    border-style: solid;
+    border-color: #f2f2f2!important;
+    border-radius: 0;
+    box-sizing: border-box;
+    display: inline-block;
+    outline: none;
+    padding: 14px;
+    width: 60%;
+    -webkit-appearance: none;
+    color: #333333;
+    margin-top: 60px;
+}
