@@ -1,5 +1,6 @@
 import React from 'react'
 import { slide as Menu } from 'react-burger-menu'
+import './Burger.css'
 
 class Burger extends React.Component {
   showSettings (event) {
@@ -52,7 +53,7 @@ class Burger extends React.Component {
       }
     }
     return (
-      <Menu right styles={ styles } >
+      <Menu className="menu-item" right styles={ styles } >
         <a id="login" className="menu-item" href="https://camperbnb.herokuapp.com/login"><strong>LOGIN</strong></a><br></br><br></br>
         <a id="register" className="menu-item" href="https://camperbnb.herokuapp.com/register"><strong>SIGN UP</strong></a>
       </Menu>
